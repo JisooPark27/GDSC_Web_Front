@@ -7,7 +7,7 @@ import { dummyHot } from "../../../../components/dummyData";
 
 const HodBoardWrapper = styled.div`
   padding: 12px 6px;
-    
+  margin: 5px 0px;
   .title{
     display: inline-block;
     padding: 5px 12px;

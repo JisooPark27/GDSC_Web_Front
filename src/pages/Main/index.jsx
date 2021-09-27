@@ -1,8 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
-import { COLORS } from "../../components/Colors";
 
 
 import BottomNavigation from "../../layout/BottomNavigation";
@@ -17,8 +15,13 @@ import MainScreenSettingButton from "./components/MainScreenSetting";
 
 const MainWrapper = styled.div`
   width: 100%;
-  height: calc(100% - 70px);
   padding-top: 70px;
+  padding-bottom: 48px;
+  
+  .board{
+    padding: 10px 0px;
+    line-gpx;
+  }
 `
 
 const Index = () => {
@@ -27,8 +30,8 @@ const Index = () => {
       <div className="top-navigation">
         <TopGudie/>
       </div>
-      <div>
-       <LinkList/>
+      <div className="board">
+        <LinkList/>
         <MyBoard />
         <RealTimeBoard />
         <PopularBoard />
