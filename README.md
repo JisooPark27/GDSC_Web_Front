@@ -17,7 +17,7 @@
     <tbody>
       <tr>
         <td><img width="280px" height="400" alt="메인 화면" src="https://user-images.githubusercontent.com/32264819/134934031-f254f05a-664a-4e71-9d26-fb69c5e0e7d6.png"></td>
-        <td><img width="280px" height="400" alt="메시지 화면" src="https://user-images.githubusercontent.com/32264819/134934031-f254f05a-664a-4e71-9d26-fb69c5e0e7d6.png"></td>
+        <td><img width="280px" height="400" alt="메시지 화면" src="https://user-images.githubusercontent.com/32264819/134938068-d862325f-b84e-4336-948d-4526d906d0b0.png"></td>
       </tr>
     </tbody>
   </table>
