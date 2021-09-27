@@ -44,7 +44,7 @@ const BottomNavigation = ({ activeNum }) => {
       <Link className="navigation-item" to="/board">
         <img src={boardIcon} alt="게시판페이지" />
       </Link>
-      <Link className="navigation-item" to="/alarm">
+      <Link className="navigation-item" to="/message">
         <img src={bellIcon} alt="알림페이지" />
       </Link>
     </NavigationWrapper>
