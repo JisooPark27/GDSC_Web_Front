@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 
-import MainInput from "../../components/Input/MainInput";
-import MainButton from '../../components/button/MainButton';
+import MainInput from "../../../components/Input/MainInput";
+import MainButton from '../../../components/button/MainButton';
 
-import { COLORS } from "../../components/Colors";
+import { COLORS } from "../../../components/Colors";
 
 const MainWrapper = styled.div`
     .label-text {

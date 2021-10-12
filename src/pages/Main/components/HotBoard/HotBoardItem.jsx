@@ -15,7 +15,7 @@ const HotBoardItemWrapper = styled.div`
   }
 
   .title-text{
-    padding 3px 0px;
+    padding: 3px 0px;
     font-size : 14px;
     font-weight: 400;
   }

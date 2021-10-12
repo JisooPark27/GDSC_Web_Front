@@ -4,11 +4,10 @@ import PropTypes from "prop-types";
 import { COLORS } from "../Colors";
 
 const CustomButton = styled.div`
-  margin: 0px 8px;
-  border-radius: 5px;
+  margin: 10px 8px;
+  border-radius: 10px;
   background-color: ${COLORS.red};
-  font-weight: 700;
-  height: 36px;
+  height: 32px;
   span {
     font-size: 14px;
     color: ${COLORS.grey_200};
