@@ -36,7 +36,7 @@ const App = () => {
         <Route exact path="/signup" component={Signup} />
 
         {/* {isLogin ? (
-          <Switch>
+          <Switch>ç
             </Switch>
         ) : (
           <Redirect to="/login" />
@@ -51,5 +51,5 @@ const App = () => {
     </BrowserRouter>
   );
 };
-
+  
 export default App;

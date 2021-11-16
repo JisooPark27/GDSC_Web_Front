@@ -1,7 +1,7 @@
 const { createProxyMiddleware} = require("http-proxy-middleware")
 
 module.exports = function (app) {
-    const url = "http://54.147.11.212"
+    const url = "http://localhost:8080"
     app.use(
         "/api",
         createProxyMiddleware({
