@@ -9,7 +9,8 @@ const MainWrapper =styled.div`
   
 `;
 
-const Index = () => {
+const Index = ({match}) => {
+  console.log("test");
   const item = {
     title: "hello",
     

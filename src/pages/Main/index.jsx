@@ -12,6 +12,7 @@ import RealTimeBoard from "./components/RealTimeBoard/RealTimeBoard";
 import PopularBoard from "./components/HotBoard/HotBoard";
 import MainScreenSettingButton from "./components/MainScreenSetting";
 
+import axios from "axios";
 
 const MainWrapper = styled.div`
   width: 100%;
@@ -43,6 +44,18 @@ const Index = () => {
     isHot: true,
   })
 
+  useEffect(() => {
+    const fetchData =  async() => {
+    try{
+      const result = await axios("/api/user/test");
+      console.log(result.data.data);
+    } catch(err) {
+      console.log(err)
+    }
+  }
+  fetchData()
+});
+
   const onClickBtn = () => {
     history.push("/setting");
   }
@@ -63,6 +76,8 @@ const Index = () => {
 
     }
   }, []);
+
+
   return (
     <MainWrapper>
       <div className="top-navigation">
